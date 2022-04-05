@@ -1,3 +1,6 @@
+/.idea
+datastructure_hw.iml
+
 # 과제 제출용 압축 파일 및 캡처 이미지 파일 제외
 *.zip
 *.png
