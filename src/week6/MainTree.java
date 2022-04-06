@@ -39,6 +39,8 @@ public class MainTree {
         MyNode canada = tree.addChild(itt, "Canada");
 
         System.out.println("[Level 3]");
-        System.out.print(europe.element() + ", " + asia.element() + ", " + canada.element());
+        System.out.println(europe.element() + ", " + asia.element() + ", " + canada.element() + "\n");
+
+        System.out.printf("* Tree size = Total %d Nodes", tree.size());
     }
 }
