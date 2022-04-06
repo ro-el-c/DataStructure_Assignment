@@ -34,7 +34,7 @@ public class MyTree {
 
     public MyNode addroot(Object obj){
         this.root = new MyNode(obj);
-        this.treeSize++;
+        this.treeSize = 1;
         this.root.setChildren(new ArrayList());
         return this.root;
     }
