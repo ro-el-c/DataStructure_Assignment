@@ -7,12 +7,12 @@ public class MyNode {
     private MyNode parent;
     private ArrayList children;
 
-    MyNode(){
+    public MyNode(){
         this.element = null;
         this.parent = null;
         this.children = null;
     }
-    MyNode(Object obj){
+    public MyNode(Object obj){
         this.element = obj;
         this.parent = null;
         this.children = null;

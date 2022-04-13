@@ -6,11 +6,11 @@ public class MyTree {
     private MyNode root;
     private int treeSize;
 
-    MyTree(){
+    public MyTree(){
         this.root = null;
         this.treeSize = 0;
     }
-    MyTree(Object obj){
+    public MyTree(Object obj){
         this.root = new MyNode(obj);
         this.treeSize = 1;
         this.root.setChildren(new ArrayList());
